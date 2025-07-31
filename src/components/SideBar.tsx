@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import WatchLater from '../assets/Icons/Time.png'
-import Genres from '../assets/icons/Group53.png'
+import Genres from '../assets/icons/Genres.png'
 import Search from '../assets/icons/Search.png'
-import Home from '../assets/icons/Group46.png'
-import Movies from '../assets/icons/Group54.png'
-import TV from '../assets/icons/Group56.png'
+import Home from '../assets/icons/Home.png'
+import Movies from '../assets/icons/Movies.png'
+import TV from '../assets/icons/TV.png'
 
 const menuItems = [
     { icon: Search, label: 'Search' },
