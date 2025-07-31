@@ -53,7 +53,7 @@ const SinglePage = ({ label }: { label: string }) => {
           <div className="h-full flex flex-col  px-10 max-w-[700px] space-y-6 mt-40">
             <h1 className="text-5xl font-extrabold">{showItem?.Title == undefined ? data.Featured.Title : showItem?.Title} </h1>
             <p className="text-lg text-gray-300">
-              {showItem?.ReleaseYear == undefined ? data.Featured.ReleaseYear : showItem?.ReleaseYear}  {showItem?.MpaRating == undefined ? data.Featured.MpaRating : showItem?.MpaRating}{showItem?.Duration == undefined ? formatDuration(data?.Featured.Duration) : formatDuration(showItem?.Duration)}
+              {showItem?.ReleaseYear == undefined ? data.Featured.ReleaseYear : showItem?.ReleaseYear}  {showItem?.MpaRating == undefined ? data.Featured.MpaRating : showItem?.MpaRating} {showItem?.Duration == undefined ? formatDuration(data?.Featured.Duration) : formatDuration(showItem?.Duration)}
             </p>
             <p className="text-lg text-gray-200 leading-relaxed">
               {showItem?.Description == undefined ? data.Featured.Description : showItem?.Description}
