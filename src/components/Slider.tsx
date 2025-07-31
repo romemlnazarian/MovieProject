@@ -1,9 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Mousewheel } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/free-mode';
 
-const TrendingSlider = ({ items , onchange}: any) => {
+
+const TrendingSlider = ({ items , onchange}:any) => {
   return (
     <Swiper
       modules={[FreeMode, Mousewheel]}
@@ -13,7 +12,7 @@ const TrendingSlider = ({ items , onchange}: any) => {
       spaceBetween={20}
       className="w-full"
     >
-      {items.map((item: any, index: number) => (
+      {items.map((item:any, index:number) => (
         <SwiperSlide
           key={index}
           className="!w-[180px] !h-[220px] bg-gray-900 rounded-lg overflow-hidden shadow-md hover:scale-105 transition"

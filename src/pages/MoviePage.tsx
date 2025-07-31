@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import data from '../MockData.json';
 import TrendingSlider from '../components/Slider';
 import { useMove } from '../hooks/useMove';
