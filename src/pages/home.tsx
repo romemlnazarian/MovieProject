@@ -1,14 +1,14 @@
 
 import { useState } from 'react';
-import Sidebar from '../components/SideBar';
+import SidebarComponent from '../components/SideBar';
 import SinglePage from './MoviePage';
 
 const Home = () => {
  const [label, setLabel] = useState("Home")
   return (
-    <Sidebar onItemSelect={(e:string)=>setLabel(e)}>
+    <SidebarComponent onItemSelect={(e:string)=>setLabel(e)}>
         <SinglePage label={label}/>
-    </Sidebar>
+    </SidebarComponent>
   );
 };
 
